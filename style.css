@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-sarif;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+input, button, select{
+    padding-block: 8px;
+    border: 1px solid black;
+}
+section, h3{
+    margin:20px 25px;
+}
+.input-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+}
+.todo span{
+    width:28%;
+}
+.todo{
+    background-color: black;
+    color: white;
+    margin-block: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.complete{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+i{
+    cursor: pointer;
+}
